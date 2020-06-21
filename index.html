@@ -1,0 +1,270 @@
+<html>
+<head>
+ <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Bootstrap Theme</title>
+<style>
+.modal
+{
+background-image:url(images/6.jpg);
+backround-repeat:no-repeat;
+background-size:cover;
+background-attachment:fixed;
+}
+
+#home-section
+{
+background-image:url(images/6.jpg);
+backround-repeat:no-repeat;
+background-size:cover;
+background-attachment:fixed;
+min-height:500px;
+}
+.home-inner
+{
+padding-top:100px;
+}
+.card-form
+{
+opacity:0.8;
+}
+.fas
+{
+color:#008ed6;
+background:white;padding:5px;
+border-radius:5px;
+}
+.navbar{
+opacity:0.8;
+}
+.overlay
+{
+background-size:cover;
+background-attachment:fixed;
+width:100%;
+top:0;
+left:0;
+background:rgba(0,0,0,0.5);
+}
+</style>
+</head>
+<body class="bg-dark">
+<!--navbar -->
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+   <div class="container">
+        <a href="#" class="navbar-brand">SaiSowjanyaArchitects</a>
+          <button class="navbar-toggler " data-toggle="collapse" data-target="#navbarnav"> 
+                 <span class="navbar-toggler-icon"></span>
+          </button>
+        <div class="collapse navbar-collapse" id="navbarnav">
+             <ul id="navbarnav "class="navbar-nav ml-auto">
+                 <li class="nav-item"><a href="#home-section" onclick="fun(1)" class="nav-link">home</a></li>
+                 <li class="nav-item"><a href="#create-section" onclick="fun(2)" class="nav-link">create</a></li>
+                 <li class="nav-item"><a href="#share-section" class="nav-link">share</a></li>
+				 <li class="nav-item"><a href="#footer-section" class="nav-link">footer</a></li>
+             </ul>
+        </div>
+</nav>
+<!--home-section-->
+<header id="home-section">
+<div class="overlay">
+      <div class="home-inner container">
+           <div class="row text-white">
+                 <div class="col-lg-8 d-none d-lg-block">
+                       <h1 class="display-4"><strong>Social media relieves the pain</strong></h1>
+                            <div class="d-flex">
+                                  <div class="p-4 align-self-start">
+                                       <i class="fas fa-check fa-2x"></i>
+                                  </div>
+                                  <div class="p-4 align-self-end">
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</div>
+                                  </div>
+                            <div class="d-flex">
+                                  <div class="p-4 align-self-start">
+                                       <i class="fas fa-check fa-2x"></i>
+                                  </div>
+                                  <div class="p-4 align-self-end">
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</div>
+                                  </div>
+                            <div class="d-flex">
+                                 <div class="p-4 align-self-start">
+                                      <i class="fas fa-check fa-2x"></i>
+                                 </div>
+                                 <div class="p-4 align-self-end">
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+                                 </div>
+                            </div>
+                   </div>
+                   <div class="col-lg-4">
+                        <div class="card card-form bg-primary text-center">
+                             <div class="card-body">
+                                  <h3>Sign up today</h3>
+                                  <h3>Please fill the form to register </h3>
+                                  <form>
+                                       <div class="form-group">
+                                            <input type="text" class="form-control form-control-lg"placeholder="username">
+                                       </div>
+                                       <div class="form-group">
+                                            <input type="email" class="form-control form-control-lg"placeholder="email">
+                                       </div>
+                                       <div class="form-group">
+                                            <input type="password" class="form-control form-control-lg"placeholder="password">
+                                       </div>
+                                       <div class="form-group">
+                                            <input type="password" class="form-control form-control-lg"placeholder="confirm password">
+                                       </div>
+                                       <input type="submit" class="btn btn-outline-light btn-block">
+                                  </form>
+                            </div>
+                      </div> 
+                  </div>
+            </div>
+      </div>
+  </div>
+</header>
+<!--explore section-->
+<section id="create-section" class="bg-dark">
+<div class="p-5 container text-light text-center"><h1>ExploreSection</h1><p class="lead">You Can See The Model images of the buildings that we bulid till date</p><button class="btn btn-primary">click here</button> </div>
+</section>
+<!--explore and connect section-->
+
+<section class="py-5 bg-light text-dark">
+<div class="container">
+<div class="row">
+<div class="col-md-6">
+<img src="6.jpg" class="img-fluid rounded-circle">
+</div>
+<div class="col-md-6"><h1>Explore And Connect</h1><p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+<div class="d-flex">
+<div class="p-4 align-self-start">
+<i class="fas fa-check fa-2x"></i> 
+</div>
+<div class="align-self-end"><p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p></div>
+</div>
+<div class="d-flex">
+<div class="p-4 align-self-start">
+<i class="fas fa-check fa-2x"></i> 
+</div>
+<div class="align-self-end"><p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p></div>
+</div>
+<div class="d-flex">
+<div class="p-4 align-self-start">
+<i class="fas fa-check fa-2x"></i> 
+</div>
+<div class="align-self-end"><p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p></div>
+</div>
+</div>
+</div>
+</section>
+<!--share section-->
+<section  class="bg-primary">
+<div class="p-5 container text-light text-center"><h1>Share Section</h1><p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p><button class="btn btn-success ">sign up</button> </div>
+</section>
+<!--share and connect section-->
+
+<section id="share-section" class="py-5 bg-white bg-lighten-1 text-dark">
+<div class="container">
+<div class="row">
+<div class="col-md-6"><h1>Share</h1><p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+<div class="d-flex">
+<div class="p-4 align-self-start">
+<i class="fas fa-check fa-2x"></i> 
+</div>
+<div class="align-self-end"><p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p></div>
+</div>
+<div class="d-flex">
+<div class="p-4 align-self-start">
+<i class="fas fa-check fa-2x"></i> 
+</div>
+<div class="align-self-end"><p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p></div>
+</div>
+<div class="d-flex">
+<div class="p-4 align-self-start">
+<i class="fas fa-check fa-2x"></i> 
+</div>
+<div class="align-self-end"><p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p></div>
+</div>
+</div>
+<div class="col-md-6">
+<img src="6.jpg" class="img-fluid rounded-circle">
+</div>
+</div>
+</section>
+
+<!--footer-->
+
+
+
+<footer class="bg-dark" id="footer-section">
+<div class="container">
+<div class="row">
+<div class="col  py-4 text-white text-center">
+<h3>LoopLab</h3>
+<p class="">copyright&copy;2020</p>
+<button class="btn btn-primary" data-toggle="modal" data-target="#contactmodal">sign up</button>
+</div>
+</div>
+</div>
+</footer>
+<!--modal-->
+
+
+
+<div id="contactmodal" class="modal bg-dark text-dark fade">
+
+     <div class="modal-dialog">
+          <div class="modal-content">
+                <div class="modal-header">
+                     <h5 class="modal-title"> Contact Us</h5>
+                     <button class="close" data-dismiss="modal"><span>&times;</span></button>
+                </div>
+                <div class="modal-body">
+                <form>
+                    <div class="form-group">
+                        <label class="label">Name</label>
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label class="label">Email</label>
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="form-group">
+                          <label class="label">Message</label>
+                          <textarea class="form-control"></textarea>
+                    </div>
+                </form>
+                </div>
+                <div class="modal-footer">
+                     <button class="btn btn-primary btn-block">submit</button>
+                </div>
+          </div>
+     </div>
+</div>
+
+  <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+    crossorigin="anonymous"></script>
+
+  <script>
+    // Get the current year for the copyright
+    $('#year').text(new Date().getFullYear());
+    function fun(a)  
+{
+if(a==1)
+document.getElementById("home-section").style.display="block";
+else
+document.getElementById("home-section").style.display="none";
+
+}
+  </script>
+</body>
+</html>
